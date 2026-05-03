@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basic Class Object Example</title>
+  </head>
+  <body>
+    <h1>Basic Class Object Example</h1>
+
+    <p id="question">
+      Question 1 : You are creating a website for your college. Create a class
+      User with 2 properties, name & email. It also has a method called
+      viewData( ) that allows user to view website data.
+    </p>
+    <p>
+      //OUTPUT
+      <br />
+      stud1 ==== User {name: 'Meeta', email: 'meeta@gmail.com'}
+      <br />
+      //stud2.viewData() ====== app.js:11 Data = My secret data
+    </p>
+    <p id="question">
+      Question 2 : Create a new class called Admin which inherits from User. Add
+      a new method called editData to Admin that allows it to edit website data.
+    </p>
+    <p>
+      //OUTPUT <br />
+      admin1 <br />
+      Admin {name: 'veeta', email: 'veta@gmail.com'}<br />
+
+      admin1.editData <br />
+      ƒ editData() { DATA = "Data Changed"; } <br />
+      DATA <br />
+      'My secret data' <br />
+      admin1.editData() <br />
+      undefined <br />
+      DATA <br />
+      'Data Changed'
+    </p>
+    <script src="app.js"></script>
+  </body>
+</html>
