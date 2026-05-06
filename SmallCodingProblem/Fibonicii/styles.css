@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(223, 236, 149);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  background-color: rgb(154, 164, 102);
+  padding: 2rem;
+}
+
+#fibNumber {
+  height: 30px;
+  width: 20rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 10%;
+}
+
+#btn {
+  background-color: rgb(177, 177, 226);
+  height: 30px;
+  width: 5rem;
+}
+#hide {
+  display: none;
+}
